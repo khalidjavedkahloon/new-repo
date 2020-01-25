@@ -1,0 +1,117 @@
+.App {
+    text-align: left;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+.Username{
+    color: darkcyan;
+    margin-left: 50px;
+}
+.dropdown{
+    display: inline-flex;
+}
+.logoutbtn{
+    float: right;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+.abc{
+    float: left;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    opacity: 0.2;
+}
+.flex{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    display: flex;
+}
+.GraphHolder{
+    position: relative;
+    margin: auto;
+    height: 30vh;
+    width: 27vw;
+
+}
+.iconDiv{
+    margin-right: 20px;
+}
+.socialImg{
+    width: 150px;
+}
+.socialImage{
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.flex >div{
+    margin: 15px;
+    margin-left: 30px;
+    text-align: center;
+}
+.AlignRight{
+    text-align: right;
+}
+
+img{
+    height: 150px;
+    width:254px;
+}
+i{
+    margin-top: 35px;
+    color: #ADD8E6;
+}
+.blockTitle{
+    font-size: 20px;
+    color: darkcyan;
+}
+.loginuser{
+    display: inline-flex;
+}
+.AlignLeft{
+    text-align: left;
+    margin-left: 10px;
+}
+.TextColor{
+    color: #ADD8E6;
+    font-size: 25px;
+    font-weight: bold;
+}
+.overview{
+    display: inline-flex;
+}
+.Display-flex{
+    display: inline-flex;
+    margin: 10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
