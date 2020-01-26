@@ -14,7 +14,7 @@ class SocialActivity extends Component {
                     <div className="col-md-12">
                         <div className="AlignLeft blockTitle"> Social Activity</div>
                         <div className="Display-flex">
-                            <div className="socialImage"><img src="social.jpg" className="socialImg"></img></div>
+                            <div className="socialImage"><img src="social.jpg" className="img-responsive socialImg"></img></div>
                             <div className="AlignRight">
                             <div><i className="far fa-smile fa-lg abc"></i></div>
                                 <div className="AlignLeft">

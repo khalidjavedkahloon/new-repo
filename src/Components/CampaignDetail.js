@@ -25,7 +25,7 @@ class CampaignDetail extends Component {
                                 </div>
                             </div>
                             <div className="Display-flex">
-                               <img src="doctor-patient.jpg" />
+                               <img src="doctor-patient.jpg" className="img-responsive" />
                             </div>
                         </div>
 
